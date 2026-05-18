@@ -8,3 +8,4 @@ node_modules/
 .next/
 dist/
 .DS_Store
+data/football-datasets/
