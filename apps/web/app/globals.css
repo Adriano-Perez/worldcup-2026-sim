@@ -1,0 +1,16 @@
+/* Simplified global styles for this app. Kept minimal to reduce complexity
+   while preserving Tailwind directives that are required for utility classes. */
+
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+:root {
+  --background: 1 100% 100%;
+  --foreground: 0 0% 6%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html { @apply font-sans; }
+  body { @apply bg-white text-black; }
+}

@@ -1,11 +1,9 @@
-// Home page that renders the hero section.
-import Hero from "../components/Hero";
+import Home from '../components/Home';
 
-export default function HomePage() {
+export default function RootPage() {
   return (
     <main>
-      <Hero />
+      <Home />
     </main>
   );
 }
- 

@@ -9,3 +9,5 @@ node_modules/
 dist/
 .DS_Store
 data/football-datasets/
+data/processed/*.parquet
+.vscode/ 

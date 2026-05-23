@@ -1,0 +1,11 @@
+node_modules
+.next
+dist
+build
+coverage
+.git
+apps/web/.turbo
+apps/web/.next
+apps/web/node_modules
+data/football-datasets/
+*.log

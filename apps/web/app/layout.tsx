@@ -1,10 +1,14 @@
-import type { ReactNode } from "react";
+import type { ReactNode } from 'react';
+import { Navbar } from '../components/Navbar';
 
-// Root layout used by every page in the app.
+// Minimal root layout: keep Navbar and main wrapper; remove extra font helper imports.
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
